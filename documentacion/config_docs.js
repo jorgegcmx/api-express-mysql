@@ -26,6 +26,5 @@ const swaggerDocs = (app, port) => {
 
     console.log("visita el siguiente endpoint para la documentación Swagger http://localhost:" + port + "/docs");
 }
-
 module.exports = { swaggerDocs };
 
