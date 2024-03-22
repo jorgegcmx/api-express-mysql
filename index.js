@@ -9,7 +9,7 @@ var cors = require('cors')
 
 
 app.use(express.json());
-const PORT = 3322;
+const PORT =process.env.PORT || 3322;
 
 app.use(cors())
 app.use('/entradas', entradas);
